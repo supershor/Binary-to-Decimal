@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Bintodec">
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardViewBinToDec"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/back"
+    android:elevation="11dp"
+    android:layout_margin="11dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bin_to_dec_ans"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="ENTER BINARY NUMBER"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONVERT"
+            android:id="@+id/pressed_BIN_TO_DEC"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
