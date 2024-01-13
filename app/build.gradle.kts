@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.binarytodecimal"
+    namespace = "com.binarydecimalconversion.binarytodecimal"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.binarytodecimal"
+        applicationId = "com.binarydecimalconversion.binarytodecimal"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
